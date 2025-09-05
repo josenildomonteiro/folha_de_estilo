@@ -1,0 +1,25 @@
+a {
+  color: red; /* Cor padrão do link */
+}
+
+a:hover {
+  color: lime; /* Cor quando o mouse está sobre o link */
+}
+p {
+  font-family: Arial, sans-serif; /* Define a fonte Arial para todos os parágrafos */
+}
+
+h1 + p {
+  font-weight: bold; /* Deixa em negrito os parágrafos que seguem um h1 */
+}
+.destaque {
+  font-family: Arial, sans-serif; /* A fonte Arial para todos os elementos com a classe .destaque */
+}
+
+p.destaque {
+  font-weight: bold; /* Quando .destaque é usado em um parágrafo, ele fica em negrito */
+}
+
+strong.destaque {
+  color: red; /* Quando .destaque é usado em um strong, ele fica vermelho */
+}
